@@ -8,13 +8,14 @@ public class Main {
         sumaxvalor2();
 
         System.out.println("Third example: "); // con clases y sin parámetros
-        Potato ejePotato = new Potato(); // se declara y crea una estancia de la clase
-        System.out.print("Comienza con los siguientes brazos: ");
-        System.out.println(ejePotato.brazos);
-        ejePotato.QuitarBrazo(); // se resta una vez
-        ejePotato.QuitarBrazo(); // se vuelve a restar
-        System.out.print("Termina con : ");
-        System.out.println(ejePotato.brazos);
+        sumaPuntero();
+
+
+
+
+
+        System.out.println("four example: "); // con clases y sin parámetros puertas de carro
+        addiPuerta();
 
         System.out.println("********");
         System.out.println("by GP");
@@ -64,4 +65,26 @@ public class Main {
     }
 
 
-}
+    public static void sumaPuntero() {
+
+        Potato ejePotato = new Potato(); // se declara y crea una estancia de la clase
+        System.out.print("Comienza con los siguientes brazos: ");
+        System.out.println(ejePotato.brazos);
+        ejePotato.QuitarBrazo(); // se resta una vez
+        ejePotato.QuitarBrazo(); // se vuelve a restar
+        System.out.print("Termina con : ");
+        System.out.println(ejePotato.brazos);
+        System.out.println("********");
+    }
+
+    public static void addiPuerta(){
+        Carro miCarro = new Carro();
+            System.out.print("Puertas iniciales : ");
+            System.out.println(miCarro.puertas);
+
+            miCarro.sumaPuertas();
+            System.out.print("Puertas finales : ");
+            System.out.println(miCarro.puertas);
+        System.out.println("********");
+        }
+    }
