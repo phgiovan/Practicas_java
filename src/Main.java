@@ -11,14 +11,24 @@ public class Main {
         sumaPuntero();
 
 
-
-
-
         System.out.println("four example: "); // con clases y sin parámetros puertas de carro
         addiPuerta();
 
         System.out.println("********");
+
+
+        // BUCLES
+        System.out.println("Ejercicios de BUCLES "); // con clases y sin parámetros puertas de carro
+        correBucles();
+        System.out.println("********");
+        // SWICH
+        System.out.println("Ejercicios de SWICH "); // con clases y sin parámetros puertas de carro
+        correStwich();
+        System.out.println("********");
+
+
         System.out.println("by GP");
+
     }
 
     public static void sumaxvalor1() {
@@ -87,4 +97,42 @@ public class Main {
             System.out.println(miCarro.puertas);
         System.out.println("********");
         }
+
+
+    public static void correBucles(){
+        System.out.println("BUCLES While: "); // con clases y parámetros
+        Bucles ejeBucles = new Bucles();
+        ejeBucles.bucleWhile(0); // NO imprime porque primero valida para ejcutar
+
+        System.out.println("BUCLES DOWhile: "); // con clases y parámetros
+        ejeBucles.bucleDoWhile(0); // imprime cero porque primero ejecuta y luego valida
+
+        System.out.println("BUCLES FOR: "); // con clases y sin parámetros
+        ejeBucles.bucleFor();
+
+        System.out.println("BUCLES FOR ARRAY: "); // con clases y sin parámetros
+        ejeBucles.bucleForArray();
+
+    }
+
+    public static void correStwich(){
+        System.out.println("Case: "); // con clases y parámetros
+        Swich ejeSwitch = new Swich();
+        //String estacion = "INVIERNO";
+        //String estacion = "VERANO";
+        //String estacion = "OTOÑO";
+        String estacion = "PRIMAVERA";
+        //String estacion = "A";
+        ejeSwitch.SwitchCase(estacion); // SOLO DBE IMPRIMIR LA ESTACIÓN x el BREAK
+
+        System.out.println("********");
+        String dia = "SABADO";
+        ejeSwitch.SwitchCasesinBrake(dia); // Sin usar el BREAK
+        System.out.println("********");
+
+    }
+
+
+
+
     }

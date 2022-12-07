@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd5b9d97-ee01-4013-a6d6-de778268ed4d" name="Changes" comment="Actualización ejercicios">
-      <change afterPath="$PROJECT_DIR$/src/Carro.java" afterDir="false" />
+    <list default="true" id="cd5b9d97-ee01-4013-a6d6-de778268ed4d" name="Changes" comment="Incluye  Puertas de Carro">
+      <change afterPath="$PROJECT_DIR$/src/Bucles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swich.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -76,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668311339966</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Incluye  Puertas de Carro">
+      <created>1668313087961</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668313087961</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Actualización ejercicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualización ejercicios" />
+    <MESSAGE value="Incluye  Puertas de Carro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Incluye  Puertas de Carro" />
   </component>
 </project>
